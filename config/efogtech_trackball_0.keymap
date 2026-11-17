@@ -25,10 +25,10 @@
 			DECLARE_ENCODERS;
 			bindings = <
 			    // buttons
-			    &ltmkp LAYER_SNIPE ENTER  &ltmkp LAYER_SCROLL ESC
-			    &mkp MCLK                 &cdch LAYER_SCROLL 0
-			    &mkp LCLK                 &mkp RCLK
-			    &ltm LAYER_EXTRAS MB4     &ltm LAYER_DEVICE MB5
+			    &ltmkp LAYER_SNIPE ENTER  &mkp MCLK
+			    &ltmkp LAYER_SCROLL ESC   &cdch LAYER_SCROLL 0
+			    &mkp LCLK                 &ltmkp LAYER_EXTRAS C_PLAY_PAUSE
+			    &mkp RCLK                 &lt LAYER_DEVICE C_MUTE
 
 			    // rotary encoders
 			    &kp C_VOL_UP              &kp LC(TAB)
@@ -42,8 +42,8 @@
 			bindings = <
 			    &bst_copy      &bst_paste
 			    &bst_cut       &bst_undo
-			    &bst_undo      &bst_copy
-			    &trans         &bst_paste
+			    &bst_undo      &trans
+			    &bst_copy      &bst_paste
 
 			    &kp C_VOL_UP   &kp LC(TAB)
 			    &kp C_VOL_DN   &kp LC(LS(TAB))
