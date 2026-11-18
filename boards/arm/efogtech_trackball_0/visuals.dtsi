@@ -2,11 +2,11 @@
 
 #ifndef LAYER_DEFAULT
 #define LAYER_DEFAULT      0
-#define LAYER_EXTRAS       1
-#define LAYER_DEVICE       2
-#define LAYER_SCROLL       3
-#define LAYER_SNIPE        4
-#define LAYER_USER         5
+#define LAYER_CAD          1
+#define LAYER_EXTRAS       2
+#define LAYER_DEVICE       3
+#define LAYER_SCROLL       4
+#define LAYER_SNIPE        5
 #endif
 
 / {
@@ -73,11 +73,14 @@
 			persistent;
 		};
 
-		layer_user {
+		layer_cad {
 			event-type = "layer";
-			layer-index = <LAYER_USER>;
-			colors = [00 00 00];
-			persistent;
+			layer-index = <LAYER_CAD>;
+			colors = [00 FF 00];
+			animation = "flash";
+			flash-duration-ms = <1500>;
+			flash-ease-in-ms = <75>;
+			flash-ease-out-ms = <75>;
 		};
 
 		idle {
