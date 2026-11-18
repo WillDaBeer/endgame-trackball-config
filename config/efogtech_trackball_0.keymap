@@ -47,8 +47,8 @@
 			    &mkp RCLK                 &lt LAYER_DEVICE C_MUTE
 
 			    // rotary encoders
-			    &bst_desk_next            &kp C_VOL_UP
-			    &bst_desk_prev            &kp C_VOL_DN
+			    &bst_desk_prev            &kp C_VOL_UP
+			    &bst_desk_next            &kp C_VOL_DN
 		    >;
 		};
 
@@ -61,8 +61,8 @@
 			    &bst_undo      &trans
 			    &bst_copy      &bst_paste
 
-			    &bst_desk_next &kp C_VOL_UP
-			    &bst_desk_prev &kp C_VOL_DN
+			    &bst_desk_prev &kp C_VOL_UP
+			    &bst_desk_next &kp C_VOL_DN
 	   		>;
 		};
 
@@ -75,8 +75,8 @@
 			    &af_toggle AF_TOG    &bt BT_PRV
 			    &studio_unlock       &trans
 
-			    &bst_desk_next       &kp C_VOL_UP
-			    &bst_desk_prev       &kp C_VOL_DN
+			    &bst_desk_prev       &kp C_VOL_UP
+			    &bst_desk_next       &kp C_VOL_DN
 		   	>;
 		};
 
@@ -117,8 +117,8 @@
 				&trans        &trans
 				&trans        &trans
 
-				&bst_desk_next  &kp C_VOL_UP
-				&bst_desk_prev  &kp C_VOL_DN
+				&bst_desk_prev  &kp C_VOL_UP
+				&bst_desk_next  &kp C_VOL_DN
 		    >;
 		};
 	};
